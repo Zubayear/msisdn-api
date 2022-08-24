@@ -1,0 +1,246 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+{"level":"info","ts":1661364593.235874,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/login","status":400,"method":"POST","path":"/api/login","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.000320346,"time":"2022-08-25T00:09:53+06:00"}
+{"level":"info","ts":1661364623.545386,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.075187987,"time":"2022-08-25T00:10:23+06:00"}
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+{"level":"info","ts":1661365933.617035,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/msisdn/04cfb906-92cb-4c3c-b82b-28b2af609a76","status":401,"method":"GET","path":"/api/msisdn/04cfb906-92cb-4c3c-b82b-28b2af609a76","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.000460344,"time":"2022-08-25T00:32:13+06:00"}
+{"level":"info","ts":1661365964.5936031,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/signup","status":500,"method":"POST","path":"/api/signup","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.061510086,"time":"2022-08-25T00:32:44+06:00"}
+{"level":"info","ts":1661365988.182369,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/signup","status":500,"method":"POST","path":"/api/signup","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.06186632,"time":"2022-08-25T00:33:08+06:00"}
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+{"level":"error","ts":1661366479.730979,"caller":"zap@v0.0.2/zap.go:116","msg":"[Recovery from panic]","time":1661366479.730849,"error":"runtime error: invalid memory address or nil pointer dereference","request":"POST /api/signup HTTP/1.1\r\nHost: localhost:9091\r\nConnection: close\r\nConnection: close\r\nContent-Length: 78\r\nContent-Type: application/json\r\nUser-Agent: HTTPie\r\n\r\n","stack":"goroutine 40 [running]:\nruntime/debug.Stack()\n\t/usr/local/opt/go/libexec/src/runtime/debug/stack.go:24 +0x65\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1.1()\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:120 +0x377\npanic({0x1819fc0, 0x1f00b50})\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:884 +0x212\ngo.uber.org/zap.(*Logger).check(0x0, 0x0, {0x18f516b, 0x1f})\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:268 +0x4d\ngo.uber.org/zap.(*Logger).Info(0x18e14ee?, {0x18f516b?, 0x1867ba0?}, {0xc0007998c0, 0x1, 0x1})\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:191 +0x3b\nmain.createUser(0xc0005d0b00)\n\t/Users/syedibnazubayear/Documents/dev/huspass/main.go:125 +0x1da\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1(0xc0005d0b00)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:132 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.GinzapWithConfig.func1(0xc0005d0b00)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:50 +0xca\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000682820, 0xc0005d0b00)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x671\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000682820, {0x1a44a60?, 0xc0005d68c0}, 0xc0005d0a00)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0x1dd\nnet/http.serverHandler.ServeHTTP({0x1a431d8?}, {0x1a44a60, 0xc0005d68c0}, 0xc0005d0a00)\n\t/usr/local/opt/go/libexec/src/net/http/server.go:2947 +0x30c\nnet/http.(*conn).serve(0xc000000d20, {0x1a455a0, 0xc00038c2d0})\n\t/usr/local/opt/go/libexec/src/net/http/server.go:1991 +0x607\ncreated by net/http.(*Server).Serve\n\t/usr/local/opt/go/libexec/src/net/http/server.go:3102 +0x4db\n","stacktrace":"github.com/gin-contrib/zap.RecoveryWithZap.func1.1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:116\nruntime.gopanic\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:884\nruntime.panicmem\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:260\nruntime.sigpanic\n\t/usr/local/opt/go/libexec/src/runtime/signal_unix.go:835\ngo.uber.org/zap.(*Logger).check\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:268\ngo.uber.org/zap.(*Logger).Info\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:191\nmain.createUser\n\t/Users/syedibnazubayear/Documents/dev/huspass/main.go:125\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:132\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.GinzapWithConfig.func1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:50\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/opt/go/libexec/src/net/http/server.go:2947\nnet/http.(*conn).serve\n\t/usr/local/opt/go/libexec/src/net/http/server.go:1991"}
+{"level":"info","ts":1661366479.73118,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/signup","status":500,"method":"POST","path":"/api/signup","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.000694834,"time":"2022-08-25T00:41:19+06:00"}
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+{"level":"error","ts":1661366554.4742138,"caller":"zap@v0.0.2/zap.go:116","msg":"[Recovery from panic]","time":1661366554.474059,"error":"runtime error: invalid memory address or nil pointer dereference","request":"POST /api/signup HTTP/1.1\r\nHost: localhost:9091\r\nConnection: close\r\nConnection: close\r\nContent-Length: 78\r\nContent-Type: application/json\r\nUser-Agent: HTTPie\r\n\r\n","stack":"goroutine 41 [running]:\nruntime/debug.Stack()\n\t/usr/local/opt/go/libexec/src/runtime/debug/stack.go:24 +0x65\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1.1()\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:120 +0x377\npanic({0x1819f80, 0x1f00b50})\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:884 +0x212\ngo.uber.org/zap.(*Logger).check(0x0, 0x0, {0x18f512b, 0x1f})\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:268 +0x4d\ngo.uber.org/zap.(*Logger).Info(0x18e14ae?, {0x18f512b?, 0x17c4080?}, {0xc000507540, 0x1, 0x1})\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:191 +0x3b\nmain.createUser(0xc0004feb00)\n\t/Users/syedibnazubayear/Documents/dev/huspass/main.go:126 +0x19e\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1(0xc0004feb00)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:132 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.GinzapWithConfig.func1(0xc0004feb00)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:50 +0xca\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc0004931e0, 0xc0004feb00)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x671\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc0004931e0, {0x1a449e0?, 0xc0000168c0}, 0xc0004fea00)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0x1dd\nnet/http.serverHandler.ServeHTTP({0x1a43158?}, {0x1a449e0, 0xc0000168c0}, 0xc0004fea00)\n\t/usr/local/opt/go/libexec/src/net/http/server.go:2947 +0x30c\nnet/http.(*conn).serve(0xc000729a40, {0x1a45520, 0xc0000881b0})\n\t/usr/local/opt/go/libexec/src/net/http/server.go:1991 +0x607\ncreated by net/http.(*Server).Serve\n\t/usr/local/opt/go/libexec/src/net/http/server.go:3102 +0x4db\n","stacktrace":"github.com/gin-contrib/zap.RecoveryWithZap.func1.1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:116\nruntime.gopanic\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:884\nruntime.panicmem\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:260\nruntime.sigpanic\n\t/usr/local/opt/go/libexec/src/runtime/signal_unix.go:835\ngo.uber.org/zap.(*Logger).check\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:268\ngo.uber.org/zap.(*Logger).Info\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:191\nmain.createUser\n\t/Users/syedibnazubayear/Documents/dev/huspass/main.go:126\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:132\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.GinzapWithConfig.func1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:50\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/opt/go/libexec/src/net/http/server.go:2947\nnet/http.(*conn).serve\n\t/usr/local/opt/go/libexec/src/net/http/server.go:1991"}
+{"level":"info","ts":1661366554.474408,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/signup","status":500,"method":"POST","path":"/api/signup","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.00067102,"time":"2022-08-25T00:42:34+06:00"}
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+{"level":"error","ts":1661366577.254794,"caller":"zap@v0.0.2/zap.go:116","msg":"[Recovery from panic]","time":1661366577.2546282,"error":"runtime error: invalid memory address or nil pointer dereference","request":"POST /api/signup HTTP/1.1\r\nHost: localhost:9091\r\nConnection: close\r\nConnection: close\r\nContent-Length: 78\r\nContent-Type: application/json\r\nUser-Agent: HTTPie\r\n\r\n","stack":"goroutine 41 [running]:\nruntime/debug.Stack()\n\t/usr/local/opt/go/libexec/src/runtime/debug/stack.go:24 +0x65\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1.1()\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:120 +0x377\npanic({0x1819fc0, 0x1f00b50})\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:884 +0x212\ngo.uber.org/zap.(*Logger).check(0x1f18840, 0x0, {0x18f516b, 0x1f})\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:268 +0x54\ngo.uber.org/zap.(*Logger).Info(0x18e14ee?, {0x18f516b?, 0x1867ba0?}, {0xc000049940, 0x1, 0x1})\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:191 +0x3b\nmain.createUser(0xc000275000)\n\t/Users/syedibnazubayear/Documents/dev/huspass/main.go:126 +0x1d7\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1(0xc000275000)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:132 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.GinzapWithConfig.func1(0xc000275000)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:50 +0xca\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000503520, 0xc000275000)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x671\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000503520, {0x1a44a60?, 0xc00046ec40}, 0xc000274f00)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0x1dd\nnet/http.serverHandler.ServeHTTP({0x1a431d8?}, {0x1a44a60, 0xc00046ec40}, 0xc000274f00)\n\t/usr/local/opt/go/libexec/src/net/http/server.go:2947 +0x30c\nnet/http.(*conn).serve(0xc0004ae780, {0x1a455a0, 0xc00009b620})\n\t/usr/local/opt/go/libexec/src/net/http/server.go:1991 +0x607\ncreated by net/http.(*Server).Serve\n\t/usr/local/opt/go/libexec/src/net/http/server.go:3102 +0x4db\n","stacktrace":"github.com/gin-contrib/zap.RecoveryWithZap.func1.1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:116\nruntime.gopanic\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:884\nruntime.panicmem\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:260\nruntime.sigpanic\n\t/usr/local/opt/go/libexec/src/runtime/signal_unix.go:835\ngo.uber.org/zap.(*Logger).check\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:268\ngo.uber.org/zap.(*Logger).Info\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:191\nmain.createUser\n\t/Users/syedibnazubayear/Documents/dev/huspass/main.go:126\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:132\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.GinzapWithConfig.func1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:50\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/opt/go/libexec/src/net/http/server.go:2947\nnet/http.(*conn).serve\n\t/usr/local/opt/go/libexec/src/net/http/server.go:1991"}
+{"level":"info","ts":1661366577.2549891,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/signup","status":500,"method":"POST","path":"/api/signup","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.00126555,"time":"2022-08-25T00:42:57+06:00"}
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+{"level":"error","ts":1661366725.655259,"caller":"zap@v0.0.2/zap.go:116","msg":"[Recovery from panic]","time":1661366725.6551301,"error":"runtime error: invalid memory address or nil pointer dereference","request":"POST /api/signup HTTP/1.1\r\nHost: localhost:9091\r\nConnection: close\r\nConnection: close\r\nContent-Length: 78\r\nContent-Type: application/json\r\nUser-Agent: HTTPie\r\n\r\n","stack":"goroutine 72 [running]:\nruntime/debug.Stack()\n\t/usr/local/opt/go/libexec/src/runtime/debug/stack.go:24 +0x65\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1.1()\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:120 +0x377\npanic({0x1819fc0, 0x1f00b50})\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:884 +0x212\ngo.uber.org/zap.(*Logger).check(0x0, 0x0, {0x18f516b, 0x1f})\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:268 +0x4d\ngo.uber.org/zap.(*Logger).Info(0x18e14ee?, {0x18f516b?, 0x1867ba0?}, {0xc000048800, 0x1, 0x1})\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:191 +0x3b\nmain.createUser(0xc0004f8000)\n\t/Users/syedibnazubayear/Documents/dev/huspass/main.go:125 +0x1da\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1(0xc0004f8000)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:132 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.GinzapWithConfig.func1(0xc0004f8000)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:50 +0xca\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000102b60, 0xc0004f8000)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x671\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000102b60, {0x1a44a60?, 0xc0004f2000}, 0xc0005aac00)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0x1dd\nnet/http.serverHandler.ServeHTTP({0x1a431d8?}, {0x1a44a60, 0xc0004f2000}, 0xc0005aac00)\n\t/usr/local/opt/go/libexec/src/net/http/server.go:2947 +0x30c\nnet/http.(*conn).serve(0xc00025be00, {0x1a455a0, 0xc0005ade60})\n\t/usr/local/opt/go/libexec/src/net/http/server.go:1991 +0x607\ncreated by net/http.(*Server).Serve\n\t/usr/local/opt/go/libexec/src/net/http/server.go:3102 +0x4db\n","stacktrace":"github.com/gin-contrib/zap.RecoveryWithZap.func1.1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:116\nruntime.gopanic\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:884\nruntime.panicmem\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:260\nruntime.sigpanic\n\t/usr/local/opt/go/libexec/src/runtime/signal_unix.go:835\ngo.uber.org/zap.(*Logger).check\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:268\ngo.uber.org/zap.(*Logger).Info\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:191\nmain.createUser\n\t/Users/syedibnazubayear/Documents/dev/huspass/main.go:125\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:132\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.GinzapWithConfig.func1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:50\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/opt/go/libexec/src/net/http/server.go:2947\nnet/http.(*conn).serve\n\t/usr/local/opt/go/libexec/src/net/http/server.go:1991"}
+{"level":"info","ts":1661366725.655853,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/signup","status":500,"method":"POST","path":"/api/signup","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.0010538,"time":"2022-08-25T00:45:25+06:00"}
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+{"level":"info","ts":1661367083.731603,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/signup","status":500,"method":"POST","path":"/api/signup","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.062899497,"time":"2022-08-25T00:51:23+06:00"}
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+{"level":"error","ts":1661367304.530208,"caller":"zap@v0.0.2/zap.go:116","msg":"[Recovery from panic]","time":1661367304.5300438,"error":"runtime error: invalid memory address or nil pointer dereference","request":"POST /api/signup HTTP/1.1\r\nHost: localhost:9091\r\nConnection: close\r\nConnection: close\r\nContent-Length: 78\r\nContent-Type: application/json\r\nUser-Agent: HTTPie\r\n\r\n","stack":"goroutine 73 [running]:\nruntime/debug.Stack()\n\t/usr/local/opt/go/libexec/src/runtime/debug/stack.go:24 +0x65\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1.1()\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:120 +0x377\npanic({0x1819fc0, 0x1f00b50})\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:884 +0x212\ngo.uber.org/zap.(*Logger).check(0x0, 0x0, {0x18f516b, 0x1f})\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:268 +0x4d\ngo.uber.org/zap.(*Logger).Info(0x18e14ee?, {0x18f516b?, 0x1867ba0?}, {0xc000048880, 0x1, 0x1})\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:191 +0x3b\nmain.createUser(0xc00014a000)\n\t/Users/syedibnazubayear/Documents/dev/huspass/main.go:122 +0x1da\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1(0xc00014a000)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:132 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.GinzapWithConfig.func1(0xc00014a000)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:50 +0xca\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc0005029c0, 0xc00014a000)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x671\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc0005029c0, {0x1a44a60?, 0xc000092000}, 0xc0006a6a00)\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0x1dd\nnet/http.serverHandler.ServeHTTP({0x1a431d8?}, {0x1a44a60, 0xc000092000}, 0xc0006a6a00)\n\t/usr/local/opt/go/libexec/src/net/http/server.go:2947 +0x30c\nnet/http.(*conn).serve(0xc0001a2c80, {0x1a455a0, 0xc000412f30})\n\t/usr/local/opt/go/libexec/src/net/http/server.go:1991 +0x607\ncreated by net/http.(*Server).Serve\n\t/usr/local/opt/go/libexec/src/net/http/server.go:3102 +0x4db\n","stacktrace":"github.com/gin-contrib/zap.RecoveryWithZap.func1.1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:116\nruntime.gopanic\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:884\nruntime.panicmem\n\t/usr/local/opt/go/libexec/src/runtime/panic.go:260\nruntime.sigpanic\n\t/usr/local/opt/go/libexec/src/runtime/signal_unix.go:835\ngo.uber.org/zap.(*Logger).check\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:268\ngo.uber.org/zap.(*Logger).Info\n\t/Users/syedibnazubayear/go/pkg/mod/go.uber.org/zap@v1.19.1/logger.go:191\nmain.createUser\n\t/Users/syedibnazubayear/Documents/dev/huspass/main.go:122\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.RecoveryWithZap.func1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:132\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-contrib/zap.GinzapWithConfig.func1\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-contrib/zap@v0.0.2/zap.go:50\ngithub.com/gin-gonic/gin.(*Context).Next\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP\n\t/Users/syedibnazubayear/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572\nnet/http.serverHandler.ServeHTTP\n\t/usr/local/opt/go/libexec/src/net/http/server.go:2947\nnet/http.(*conn).serve\n\t/usr/local/opt/go/libexec/src/net/http/server.go:1991"}
+{"level":"info","ts":1661367304.530526,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/signup","status":500,"method":"POST","path":"/api/signup","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.000820768,"time":"2022-08-25T00:55:04+06:00"}
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+{"level":"info","ts":1661367473.555742,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/signup","status":500,"method":"POST","path":"/api/signup","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.066073156,"time":"2022-08-25T00:57:53+06:00"}
+{"level":"info","ts":1661367689.714964,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/signup","status":201,"method":"POST","path":"/api/signup","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.073729665,"time":"2022-08-25T01:01:29+06:00"}
+{"level":"info","ts":1661367862.305996,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.06654093,"time":"2022-08-25T01:04:22+06:00"}
+{"level":"info","ts":1661367878.270059,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/msisdn","status":200,"method":"GET","path":"/api/msisdn","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.003068974,"time":"2022-08-25T01:04:38+06:00"}
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+{"level":"info","ts":1661368228.651329,"caller":"huspass/main.go:122","msg":"Received request for createUser","request":{"username":"genos","password":"89LjoFf!8pKqTZ","roles":"Architect"}}
+{"level":"info","ts":1661368228.71753,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/signup","status":201,"method":"POST","path":"/api/signup","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.066462944,"time":"2022-08-25T01:10:28+06:00"}

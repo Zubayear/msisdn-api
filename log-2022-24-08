@@ -1,0 +1,18 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/signup               --> main.createUser (3 handlers)
+[GIN-debug] POST   /api/login                --> main.getUser (3 handlers)
+[GIN-debug] POST   /api/msisdn               --> main.createMsisdn (4 handlers)
+[GIN-debug] GET    /api/msisdn/:id           --> main.getMsisdnById (4 handlers)
+[GIN-debug] GET    /api/msisdn               --> main.getMsisdn (4 handlers)
+[GIN-debug] PUT    /api/msisdn/:id           --> main.updateMsisdn (4 handlers)
+[GIN-debug] DELETE /api/msisdn/:id           --> main.deleteMsisdn (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :9091
+{"level":"info","ts":1661356542.7691698,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/msisdn","status":200,"method":"GET","path":"/api/msisdn","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.003801587,"time":"2022-08-24T21:55:42+06:00"}
+{"level":"info","ts":1661356574.310678,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/msisdn/04cfb906-92cb-4c3c-b82b-28b2af609a76","status":200,"method":"GET","path":"/api/msisdn/04cfb906-92cb-4c3c-b82b-28b2af609a76","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.006313956,"time":"2022-08-24T21:56:14+06:00"}
+{"level":"info","ts":1661356773.004989,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/msisdn","status":200,"method":"GET","path":"/api/msisdn","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.002481496,"time":"2022-08-24T21:59:33+06:00"}
+{"level":"info","ts":1661357367.170649,"caller":"zap@v0.0.2/zap.go:77","msg":"/api/msisdn","status":200,"method":"GET","path":"/api/msisdn","query":"","ip":"127.0.0.1","user-agent":"HTTPie","latency":0.001961822,"time":"2022-08-24T22:09:27+06:00"}
